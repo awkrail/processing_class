@@ -49,7 +49,7 @@ void draw(){
 //ボールの運動を計算するやつ
 void ball(){
   
-  if(ball_y== rect_y && div_y==1){
+  if(abs(ball_y -rect_y) <= 5 ){
    if( (rect_x-150) <ball_x && ball_x<(rect_x +150) ){
      div_y=div_y*(-1);
    }

@@ -1,3 +1,7 @@
+x=0
+y=0
+dir=1
+
 def setup():
     size(400, 300)
 

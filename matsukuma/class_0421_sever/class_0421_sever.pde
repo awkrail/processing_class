@@ -59,12 +59,12 @@ void rect_draw(){
 //ボールの運動を計算するやつ
 void ball(){
   
-  if(abs(ball_y -200) <= 5 ){
+  if(abs(ball_y -600) <= 5 ){
    if( (sx-150) <ball_x && ball_x<(sx +150) ){
      div_y=div_y*(-1);
    }
  }
-   if(abs(ball_y -600) <= 5 ){
+   if(abs(ball_y -200) <= 5 ){
    if( (cx-150) <ball_x && ball_x<(cx +150) ){
      div_y=div_y*(-1);
    }
